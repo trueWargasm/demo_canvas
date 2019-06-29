@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Застройка</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/style.min.css">
+
+</head>
+	<body>
+        <div class="container">
+            <div class="row">
+            	<div class="item-canvas">
+            		<div class="title-canvas">Застройка</div>  
+	                <div id="dragBoard" class="dragBoard">                  
+	                    <canvas id="canvas" class="canvas"></canvas>  
+	                </div>
+                    <div class="bottom-canvas">Итого: <span id="total"></span> руб</div>
+            	</div>
+                	
+                <div class="item-rect">
+                    <div class="cloneBoard">
+                    	<div class="title">Оборудование включенное в цену</div>
+                        <ul class="list">
+							<li class="list-item">									
+                                <span class="rect">
+                                    <span class="rect-item" id="item_1">
+                                    	<span class="figure-rect figure-rect-green"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Стол</span>
+				  	        </li>
+                            <li class="list-item">
+                                <span class="rect">
+                                    <span class="rect-item" id="item_2">
+                                    	<span class="figure-rect figure-rect-red"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Стул</span>		  
+                            </li>
+                            <li class="list-item">
+                                <span class="rect">
+                                    <span class="rect-item" id="item_3">
+                                    	<span class="figure-rect figure-rect-blue"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Витрина</span>		  
+                            </li>
+                            <li class="list-item">
+                                <span class="rect">
+                                    <span class="rect-item" id="item_4">
+                                    	<span class="figure-rect figure-rect-yellow"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Круглый стол</span>			  
+                            </li>				
+						</ul>
+                    </div>
+
+                    <div class="cloneBoard">
+                    	<div class="title">Дополнительное оборудование</div>
+                        <ul class="list">
+							<li class="list-item">									
+                                <span class="rect">
+                                    <span class="rect-item" id="item_5">
+                                    	<span class="figure-rect figure-rect-orange"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Стол 2 - 500 руб</span>
+				  	        </li>
+                            <li class="list-item">
+                                <span class="rect">
+                                    <span class="rect-item" id="item_6">
+                                    	<span class="figure-rect figure-rect-blue"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Стул 2 - 500 руб</span>		  
+                            </li>
+                            <li class="list-item">
+                                <span class="rect">
+                                    <span class="rect-item" id="item_7">
+                                    	<span class="figure-rect figure-rect-red"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Витрина 2 - 1000 руб</span>		  
+                            </li>
+                            <li class="list-item">
+                                <span class="rect">
+                                    <span class="rect-item" id="item_8">
+                                    	<span class="figure-rect figure-rect-yellow"></span>
+                                    </span>
+                                </span>
+                                <span class="rect-text">Супер витрина - 10000 руб</span>			  
+                            </li>				
+						</ul>
+                    </div>                 
+                <div>
+            </div>            
+        </div>
+
+        <script type="text/javascript" src="libs/fabric/fabric.js"></script>
+		<script type="text/javascript" src="libs/jquery/jquery-2.1.3.min.js"></script>
+		<script type="text/javascript" src="libs/jquery/jquery-1.12.4.js"></script>
+		<script type="text/javascript" src="libs/jquery/jquery-ui.js"></script>
+		<script src="js/common.min.js"></script>        
+    </body>
+</html>
